@@ -10003,21 +10003,20 @@ html {
   scroll-behavior: smooth;
 }
 
+/*tamaño container*/
+#tamanotext{
 
-/*formulario de contacto*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10%;
+  
 
-.control-group input[type="text"], .control-group input[type="email"], .control-group textarea {
-  background-color: #1C2833  ; /* Reemplaza con el color que desees */
 }
 
-
-
-.contact-form input[type=text],
-.contact-form input[type=email],
-.contact-form textarea {
-    color: #EB8110; /* Cambiar el color del texto a rojo */
+#iconosredes{
+  align-items: center;
+  display: flex;
 }
 
-.form-control {
-  color:#EB8110;
-}
