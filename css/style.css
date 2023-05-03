@@ -9854,10 +9854,17 @@ h1, h2, h3, h4, h5, h6,
 
 @media screen and (max-width: 767px) {
   /* Estilos para pantallas más pequeñas */
-  #visitacontainer {
-    max-height: 40vh;
+  #visitacontainer{
+   
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: initial;
+    
   }
 }
+
+
 
 #contenidocontainerv{
 
