@@ -591,13 +591,13 @@ pre code {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 900px) {
   .container, .container-sm {
     max-width: 540px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .container, .container-sm, .container-md {
     max-width: 720px;
   }
@@ -9852,11 +9852,11 @@ h1, h2, h3, h4, h5, h6,
 
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) {
   /* Estilos para pantallas más pequeñas */
   #visitacontainer{
    
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: initial;
@@ -9991,9 +9991,9 @@ h1, h2, h3, h4, h5, h6,
   width: 100%;
 } 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 900px) {
   #headercarousel {
-    height: 700%;
+    height: initial;
     width: 100%;
   }
 }
