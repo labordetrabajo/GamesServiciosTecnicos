@@ -26,6 +26,10 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    
+    
+    <script src="./js/contac.js"></script>
+    
 </head>
 
 <body id="colorfondo">
@@ -118,7 +122,7 @@
             <div class="col-12 col-sm-8 mb-5">
                 <div id="formulariocont" class="contact-form">
                     <div id="success"></div>
-                    <form name="sentMessage" id="contactForm" action="https://formspree.io/f/xlekznjr" method="POST">
+                    <form name="sentMessage" id="contactForm" action="https://formspree.io/f/xlekznjr" method="POST" onsubmit="enviarFormulario(event)">
                         <div class="control-group">
                             <input type="text" class="form-control p-4" id="name" placeholder="Tu nombre" required="required" data-validation-required-message="Please enter your name" name="name" />
                             <p class="help-block text-danger"></p>
@@ -206,9 +210,7 @@
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
+   
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
